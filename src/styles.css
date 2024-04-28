@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grayed-out {
+  background-color: #0267c1;
+  transition: 1s;
+  color: #f5f3f5;
+}
+
+#tacheContainer {
+  border: solid 1px;
+  width: 200px;
+  border-radius: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  transition: 1s;
+}
+
+input::placeholder {
+  color: #abacad;
+}
+
+body {
+  background-color: #f5f3f5;
+  color: #f5f3f5;
+  justify-content: center;
+  display: grid;
+  font-family: "Roboto", sans-serif;
+}
+
+#bigContainer {
+  border-radius: 16px;
+  background-color: #141414;
+  text-align: center;
+  width: 450px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+}
+
+#tasksContainer {
+  justify-content: center;
+  display: grid;
+  margin-bottom: 6px;
+}
